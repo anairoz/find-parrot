@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap');
+
+@import '@angular/material/prebuilt-themes/indigo-pink.css';
+body{
+    font-family: 'Raleway', sans-serif ;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.mat-form-field{
+    width: 100%;
+
+}
+.mat-dialog-title {
+    text-align: center;
+}
+.mat-dialog-actions{
+    justify-content: space-between!important;
+}
+/* #0e7200 */
+
+/* html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; } */

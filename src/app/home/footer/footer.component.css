@@ -1,0 +1,622 @@
+.footer-c{
+    padding: 2rem;
+    text-align: center;
+    font-weight: 300;
+    background-color: #272727;
+    font-size: 16px;
+    color: #f7f7f7;
+}
+.footer-navbar-nav{
+    display: flex;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin: 20px;
+}
+.footer-nav-link{
+    font-size: 18px;
+    line-height: 30px;
+    color: #f7f7f7;
+    font-weight: 300;
+    padding: .5rem 3rem;
+}
+.info{
+    background-color: #323232;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+.logo img{
+    height: 120px;
+}
+
+
+@media screen and (min-width:1966px){
+    .input-group-prepend, .input-group-append{
+        height: 70px;
+    }
+
+    .dropdown-button-custom{
+        color: #484848!important;
+        background-color: #ffff!important;
+        border-right-color: #cdcdcd!important;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-size: 16px!important;
+        line-height: 30px;
+    }
+    .white-buttons img {
+        margin: 20px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1965px) {
+    .nav-button, .footer-nav-link{
+        font-size: 0.75rem!important;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .navbar img{
+        height: 3rem;
+    }
+    .mainhead {
+    padding: 6rem 0 0rem;
+    }
+    .mainhead h1{
+        font-size: 2rem;
+    }
+    .mainhead p{
+        font-size: 15px;
+    }
+    .white-buttons img{
+        height: 3rem;
+    }
+    .button-search{
+        font-size: 0.6rem!important;
+    }
+    .dropdown-button-custom{
+        padding: 16px 16px;
+        font-size: small;
+    }
+    .dropdown-item{
+        font-size: 0.7rem!important;
+        padding-right:  0;
+    }
+
+    .main-text h2{
+        font-size: 1.4rem!important;
+    }
+    .main-text p{
+        font-size: 0.9rem!important;
+        margin-left: auto;
+        margin-right: autp;
+    }
+    .products{
+        padding-top: 2rem;
+    }
+
+    .grid-products{
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(3, 1fr); */
+        column-gap: 0.5rem;
+        margin: 0 250px;
+        padding-top: 20px;
+        gap: 35px 80px;
+    }
+
+    .grid-item{
+        height: 13rem;
+        width: 13rem
+    }
+
+    .grid-item img{
+        width: 100%;
+        height: auto;
+    }
+    .grid-item p{
+        font-size: 0.7rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .testimonial {
+        padding-top: 2rem;
+    }
+
+    .testimony {
+        width: 35%;
+        height: 20rem;
+    }
+    .testimony-text p{
+        font-size: 0.65rem!important;
+        margin: auto;
+        line-height: 19px;
+    }
+    p.feedback{
+        margin-bottom: 20px;
+    }
+
+    .user-photo img{
+        height: 5.5rem;
+        margin: 0.01rem;
+    }
+
+    .arrow{
+        margin: 20px 2px;
+    }
+    .info{
+        padding: 21px;
+    }
+    .footer-navbar-nav{
+        margin: 10px;
+    }
+
+    .footer-nav-link{
+        font-size: 0.7rem!important;
+
+    }
+    .logo img{
+        height: 4.5rem;
+
+    }
+
+    .footer-c{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+        font-size: 0.7rem;
+    }
+
+    }
+    @media screen and (max-width: 767px) {
+    .vl{
+        border: none;
+    }
+}
+
+@media screen and (max-width: 1298px) {
+    nav.navbar{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .nav-button{
+        font-size: 0.7rem!important;
+    }
+    .grid-products{
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(3, 1fr); */
+        column-gap: 0.5rem;
+        row-gap: 2rem;
+        margin: 0 150px;
+        padding-top: 10px;
+    }
+
+    .grid-item{
+        height: 12rem;
+        width: 12rem;
+        padding: 6.5px;
+    }
+
+    .grid-item img{
+        width: 100%;
+        height: auto;
+    }
+    .grid-item, p{
+        font-size: 0.6rem!important;
+        margin-left: 7px;
+        margin-right: 7px;
+    }
+    .testimony{
+        width: 35%;
+        height: 16rem;
+    }
+
+    .testimony-text p{
+        font-size: 0.6rem!important;
+        margin: auto 15px;
+        line-height: 17px;
+    }
+    p.feedback{
+        margin-bottom: 20px;
+    }
+    p.author{
+        font-size: 0.65rem!important;
+    }
+    .user-photo{
+        margin: -9% 0 0 0;
+    }
+    .user-photo img{
+        height: 5rem;
+        margin: 0.01rem;
+    }
+
+    .arrow{
+        margin: 20px 2px;
+    }
+    .info{
+        padding: 20px!important;
+    }
+    .logo img{
+        height: 3rem;
+
+    }
+    .footer-navbar-nav{
+        margin: 0;
+    }
+
+
+}
+@media screen and (max-width: 1024px) {
+    .nav-button, .footer-nav-link{
+        font-size: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer-nav-link{
+        font-size: 0.6rem!important;
+
+    }
+    .button-search{
+        font-size: 0.6rem!important;
+    }
+    .mainhead h1 {
+        font-size: 1.8rem;
+    }
+    .main-text h2{
+        font-size: 1.2rem!important;
+    }
+    .main-text p{
+        font-size: 0.7rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .products{
+        padding: 1.5rem;
+    }
+
+    .grid-products{
+        /* grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(3, 1fr); */
+        column-gap: 0.5rem;
+        row-gap: 2rem;
+        margin: 0 130px;
+        padding-top: 10px;
+    }
+
+    .grid-item{
+        height: 11rem;
+        width: 11rem;
+        padding: 6.5px;
+    }
+
+    .grid-item img{
+        width: 100%;
+        height: auto;
+    }
+    .grid-item p{
+        font-size: 0.6rem!important;
+
+    }
+
+    .user-photo{
+        margin: -9% 0 0 0;
+    }
+
+    .testimony{
+        width: 40%;
+        height: 17rem;
+    }
+
+    .testimony-text p{
+        font-size: 0.5rem!important;
+        margin: auto;
+        line-height: 15px;
+    }
+    p.feedback{
+        margin-bottom: 20px;
+    }
+
+    .user-photo img{
+        height: 5rem;
+        margin: 0.01rem;
+    }
+
+    .arrow{
+        margin: 20px 2px;
+    }
+    .info{
+        padding: 1rem!important;
+    }
+    .info img{
+        height: 3rem;
+
+    }
+    .footer-c{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+        font-size: 0.7rem;
+    }
+    .mainhead {
+        font-size: 0.5rem;
+    }
+    .dropdown-button-custom{
+        padding: 3px 10px;
+        font-size: x-small;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar-toggler-icon{
+        width: 25px;
+        height: 25px;
+    }
+    .nav-button{
+        font-size: 0.7rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .button-search{
+        font-size: 0.6rem!important;
+    }
+
+    .main-text h2{
+        font-size: 1.3rem!important;
+    }
+    .main-text p{
+        font-size: 0.8rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .grid-products{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows:repeat(3, 1fr);
+        margin: 10px auto;
+        column-gap: 3rem;
+        width: fit-content;
+
+    }
+
+    .grid-item{
+        height: 14rem;
+        width: 14rem
+    }
+
+    .grid-item img{
+        width: 100%;
+    height: auto;
+    }
+    .grid-item p{
+        font-size: 0.7rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .products{
+        height: auto;
+    }
+    .navbar img{
+        height: 2rem;
+    }
+    .white-buttons img{
+        height: 2.5rem;
+    }
+
+    .testimony{
+        width: 60%;
+        height: 18rem;
+    }
+    .testimony-text p{
+        font-size: 0.6rem!important;
+        margin: auto;
+        line-height: 20px;
+    }
+    p.feedback{
+        margin-bottom: 20px;
+    }
+
+    .user-photo img{
+        height: 5rem;
+        margin: 0.01rem;
+    }
+
+    .arrow{
+        margin: 70px 2px;
+    }
+
+
+    .mainhead {
+        font-size: 0.5rem;
+    }
+    .dropdown-button-custom{
+        padding: 3px 10px;
+        font-size: x-small;
+    }
+    .dropdown-item{
+        font-size: 0.7rem!important;
+        padding-right:  0;
+    }
+
+    .info img{
+        height: 3rem;
+
+    }
+    .logo{
+        margin: 10px;
+    }
+    .footer-nav-link{
+        font-size: 0.6rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .footer-c{
+        padding-top: .6rem!important;
+        padding-bottom: .6rem!important;
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-button{
+        font-size: 0.7rem;
+        padding-right:  0;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .mainhead h1 {
+        font-weight: 800;
+        font-size: 275%;
+    }
+    .button-search{
+        font-size: 0.2rem!important;
+    }
+
+    .helpfix{
+        display: grid;
+        grid-template-rows: 1fr 135px;
+    }
+    .white-buttons img{
+        height: 35px;
+    }
+
+    .main-text h2{
+        font-size: 1.3rem!important;
+    }
+    .main-text p{
+        font-size: 0.8rem!important;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .grid-products{
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows:repeat(6, 1fr);
+        column-gap: 0.5rem;
+        width: fit-content;
+    }
+
+    .grid-item{
+        height: 13rem;
+        width: 13rem;
+    }
+    .grid-item img {
+        width: 100%;
+        height: auto;
+    }
+    .grid-item p {
+        font-size: 0.6rem!important;
+    }
+
+    .testimony{
+        width: 85%;
+        height: 18rem;
+    }
+    .user-photo{
+        margin: -10% 0 0 0;
+    }
+    .user-photo img{
+        height: 4rem;
+        margin: 0.01rem;
+    }
+    .testimony-text{
+        margin: auto 20px;
+
+    }
+    .testimony-text p{
+        font-size: 0.7rem!important;
+        line-height: 16px;
+    }
+    p.feedback{
+        margin-bottom: 20px;
+    }
+    .dropdown-item{
+        font-size: 0.7rem;
+        padding-right:  0;
+    }
+    .arrow{
+        margin: 90px 2px;
+        width: 20px;
+    }
+
+    .logo{
+        margin: 5px;
+        padding: 2px!important;
+
+    }
+    .logo img{
+        height: 3rem;
+    }
+    .footer-navbar-nav{
+        margin: 5px;
+        text-align: center;
+        padding: 0;
+        flex-direction: column;
+    }
+    .footer-nav-link{
+        font-size: 0.5rem!important;
+        padding: 2px;
+    }
+
+
+    .footer-c{
+        padding: 0.5rem!important;
+    }
+}
+
+@media screen and (max-width: 357px) {
+    .navbar-toggler-icon{
+        width: 20px;
+        height: 20px;
+    }
+    .nav-button{
+        font-size: 0.5rem;
+        padding-right:  0;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+    .mainhead h1 {
+        font-weight: 800;
+        font-size: 240%;
+    }
+    .mainhead p{
+        font-size: 125%!important;
+    }
+    .button-search{
+        font-size: 0.2rem!important;
+        padding: 2px 4px;
+    }
+    .dropdown-button-custom{
+        font-size: 0.5rem!important;
+
+    }
+    .container{
+        width: 288px;
+        padding: 0;
+    }
+    .dropdown-item{
+        font-size: 0.5rem;
+        padding-right:  0;
+    }
+    .testimony{
+        width: 75%;
+        height: 18rem;
+    }
+    .testimony-text p{
+        font-size: 0.6rem!important;
+        line-height: 14px;
+    }
+
+}

@@ -1,0 +1,14 @@
+.return-home{
+	display: flex;
+	height: 100vh;
+	text-align: center;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #cdcdcd;
+	background: #fff;
+}
+img{
+	height: 50px;
+	width: 50px;
+}

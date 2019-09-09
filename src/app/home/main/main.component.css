@@ -1,0 +1,379 @@
+
+.mainhead {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url('../../../assets/img/main.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    -webkit-background-position: center;
+    -webkit-background-repeat: no-repeat;
+    -webkit-background-attachment: fixed;
+    -webkit-background-size: cover;
+}
+
+
+.header-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5px;
+    text-align: center;
+    padding-top: 300px;
+}
+.header-text h1{
+    font-weight: 700;
+    font-size: 55px;
+    color: #484848;
+}
+.header-text p{
+	text-transform: uppercase;
+    font-weight: 300;
+    font-size: 18px;
+    color: #484848;
+}
+
+
+.input-group{
+	position: relative;
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-button{
+	background-color: #ffffff;
+     color: #838383;
+     padding: 19px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+     /* min-width: 160px; */
+     border-radius: 5px 0px 0px 5px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  border-radius:0 0 5px 5px;
+  width: max-content;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-button::after {
+   position: absolute;
+   content: '';
+   background: url("../../../assets/img/arr.png") no-repeat;
+   width: 10px;
+   height: 7px;
+   top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.dropdown-item{
+	text-align: left;
+	color: black;
+	font-size: 12px;
+	text-decoration: none;
+}
+.dropdown-menu a:hover {background-color: #f1f1f1}
+
+
+input{
+   height: 55px;
+   width: 500px;
+   border: none;
+}
+.form-control{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-grow: 1;
+   border: none;
+
+}
+input:focus{
+   outline: none;
+}
+button:focus{
+   outline: none;
+}
+
+.search-button{
+	text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+    padding: 20px 20px;
+    background-color: #4dadbb;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    height: 55px;
+    cursor: pointer;
+}
+
+.mainhead .whitebuttons{
+    align-self: flex-end;
+}
+
+span.name {
+    color:#0e7200;
+}
+
+ .white-buttons{
+    padding-bottom: 0;
+    display: flex;
+    justify-content: center;
+    /* transform: translateY(250%); */
+    padding-top: 300px;
+}
+.white-buttons img{
+    margin: 20px;
+}
+
+@media screen and (min-width:1966px){
+
+
+    .white-buttons img {
+        margin: 20px;
+        height: 80px;
+    }
+
+}
+
+@media screen and (max-width: 1965px) {
+    .header-text, .white-buttons{
+        padding-top: 200px;
+    }
+
+    .header-text h1{
+        font-size: 2.5rem;
+        margin: 10px;
+    }
+    .header-text p{
+        font-size: 15px;
+    }
+    .white-buttons img{
+        height: 3.5rem;
+    }
+    .search-button{
+        font-size: 0.6rem!important;
+    }
+    .dropdown-button{
+        padding: 21px;
+        font-size: small;
+    }
+    .dropdown-item{
+        font-size: 0.7rem!important;
+        padding-right:  0;
+    }
+
+}
+@media screen and (max-width: 1444px) {
+    .header-text{
+        padding-top: 210px;
+    }
+    .white-buttons{
+        padding-top: 180px;
+    }
+    .header-text h1{
+        margin: 0;
+        font-size: 2.1rem;
+    }
+    .header-text p{
+        font-size: 0.8rem;
+    }
+    input{
+        height: 45px;
+        width: 370px;
+    }
+    .dropdown-button{
+        padding: 16px 21px;
+        font-size: small;
+    }
+    .dropdown::after {
+        top: 44%;
+        right: 5px;
+        transform: translateY(-50%);
+    }
+    .search-button{
+        padding: 2px 21px;
+        height: 47px;
+    }
+    .white-buttons img{
+        height: 3rem;
+    }
+
+}
+
+@media screen and (max-width: 1298px) {
+    .header-text, .white-buttons{
+        padding-top: 150px;
+    }
+    .header-text h1{
+        margin: 10px;
+    }
+
+    input{
+        height: 45px;
+        width: 300px;
+    }
+
+
+
+}
+@media screen and (max-width: 1024px) {
+
+    .search-button{
+        font-size: 0.6rem!important;
+        height: 45px;
+    }
+
+    .head-text {
+        font-size: 0.5rem;
+    }
+    .dropdown-button{
+        padding: 17px;
+        font-size: small;
+    }
+    input{
+        height: 45px;
+    }
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-text, .white-buttons{
+        padding-top: 180px;
+    }
+    .header-text h1{
+        font-size: 300%;
+    }
+    .header-text p{
+        margin: 5px;
+        font-size: 0.7rem;
+    }
+
+    .search-button{
+        font-size: 0.6rem!important;
+        height: 45px;
+        padding: 6px;
+    }
+
+
+    input{
+        width: 250px;
+        height: 40px;
+    }
+    .white-buttons img{
+        height: 2.5rem;
+    }
+
+    .mainhead {
+        font-size: 0.5rem;
+    }
+    .dropdown-button{
+        padding: 15.5px 18px;
+        font-size: x-small;
+    }
+    .dropdown-item{
+        font-size: 0.7rem;
+    }
+
+    .search-button{
+        height: 42px;
+        padding: 10px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+
+    .header-text h1 {
+        font-weight: 800;
+        font-size: 275%;
+        padding: 0 20px;
+    }
+    .header-text, .white-buttons{
+        padding-top: 100px;
+    }
+
+    .search-button{
+        font-size: 0.3rem!important;
+        height: 37px;
+    }
+
+    .white-buttons img{
+        height: 40px;
+    }
+    .dropdown-button{
+        padding: 5px 10px;
+        height: 37px;
+    }
+
+    .dropdown-item{
+        font-size: 0.7rem;
+    }
+    input{
+        height: 35px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 357px) {
+
+     .header-text h1 {
+        font-weight: 800;
+        font-size: 240%;
+        margin: 5px;
+    }
+    .header-text p{
+        margin: 5px;
+        font-size: 0.5rem;
+    }
+
+    .search-button{
+        height: 26px;
+        padding: 4px;
+    }
+    .dropdown-button{
+        height: 26px;
+        font-size: 0.5rem!important;
+        padding: 0 13px
+    }
+
+    .dropdown-item{
+        font-size: 0.5rem!important;
+    }
+
+    input{
+        width: 150px;
+        height: 24px;
+    }
+/*    .dropdown::after {
+        width: 2.5px;
+        height: 3px;
+        top: 20%;
+        right: 5px;
+        transform: translateY(-100%);
+    } */
+
+
+}

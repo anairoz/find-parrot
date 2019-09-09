@@ -1,0 +1,168 @@
+.navbar{
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+	padding: 0.5rem 160px;
+	display: flex;
+	align-items: center;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgba(229,230,234,1));
+	justify-content: space-between;
+}
+.navbar-brand{
+	padding-left: 30px;
+}
+.all-products{
+	top: 0px;
+	margin-top: 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	/* padding: 3rem 0; */
+	background-color: #f7f7f7;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	scroll-behavior: smooth
+}
+
+.main-text{
+	margin-top: 100px;
+    text-align: center;
+	color: black;
+	    font-size: 30px;
+}
+
+.main-text p{
+    font-size: 16px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.add{
+	display: flex;
+	text-transform: uppercase;
+	align-items: center;
+	padding: .5rem 3rem;
+	font-size: 18px;
+	line-height: 30px;
+	color: #000000;
+}
+.nav-button{
+	cursor: pointer;
+}
+button{
+	color: rgba(0,0,0,.5);
+    /* border-color: rgba(255,0,0,.1); */
+	line-height: 1;
+	background-color: transparent;
+    border: none;
+	border-radius: .25rem;
+}
+.add img{
+	margin-left: 10px;
+	height: 20px!important;
+	width: 20px!important;
+}
+@media screen and (max-width: 1965px) {
+    .add{
+        font-size: 0.75rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .navbar img{
+		padding: 2px;
+        height: 3rem;
+    }
+	.add img{
+		height: 0.75rem!important;
+		width: 0.75rem!important;
+	}
+	.main-text{
+        font-size: 1.4rem!important;
+		margin-top: 80px;
+    }
+    .main-text p{
+        font-size: 0.9rem!important;
+        margin-left: auto;
+        margin-right: auto;
+    }
+	.material-icons{
+		font-size: 22px;
+	}
+}
+
+
+@media screen and (max-width: 1298px) {
+    nav.navbar{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .add{
+        font-size: 0.7rem;
+    }
+	.add img{
+		height: 0.7rem!important;
+		width: 0.7rem!important;
+	}
+
+
+}
+@media screen and (max-width: 1024px) {
+    .main-text{
+        font-size: 1.3rem!important;
+		margin-top: 60px;
+
+    }
+    .all-products, .main-text p{
+        font-size: 0.8rem!important;
+
+    }
+
+	.navbar{
+		padding: 0;
+	}
+
+
+}
+
+@media screen and (max-width: 768px) {
+    .add{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+	.navbar img{
+		height: 2rem;
+	}
+}
+
+@media screen and (max-width: 560px) {
+
+    .add{
+        font-size: 0.5rem;
+        padding:  0;
+    }
+    .navbar-brand{
+        padding: 0;
+    }
+	.add img{
+		height: 0.5rem!important;
+		width: 0.5rem!important;
+	}
+	.main-text {
+		margin-top: 60px;
+
+        font-size: 1.2rem!important;
+    }
+    .all-products, .main-text p{
+        font-size: 0.7rem!important;
+
+    }
+
+
+}
