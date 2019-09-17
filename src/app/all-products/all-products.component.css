@@ -32,7 +32,7 @@
 }
 
 .main-text{
-	margin-top: 100px;
+	margin: 100px;
     text-align: center;
 	color: black;
 	    font-size: 30px;
@@ -53,22 +53,67 @@
 	line-height: 30px;
 	color: #000000;
 }
-.nav-button{
+.nav-button, span, .add p, img{
 	cursor: pointer;
 }
-button{
-	color: rgba(0,0,0,.5);
-    /* border-color: rgba(255,0,0,.1); */
-	line-height: 1;
-	background-color: transparent;
-    border: none;
-	border-radius: .25rem;
-}
+
 .add img{
 	margin-left: 10px;
 	height: 20px!important;
 	width: 20px!important;
 }
+small, p, h2, h1{
+	cursor: default;
+}
+.product{
+    display: flex;
+    width: 80%;
+    padding: 10px;
+	background-color: white;
+	box-shadow: 0px 0px 15px 1px #cdcdcd;
+	margin: 20px 10px;
+}
+
+.image span:hover, .info h3:hover, .add p:hover{
+	text-decoration: underline;
+}
+.info{
+	padding: 0 10px;
+	width: 100%;
+}
+.buy, .image, img{
+	max-width: 200px;
+}
+.info p{
+	text-align: justify;
+	padding: 0 5px;
+}
+ .buy{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	min-width:155px;
+	text-align: center;
+	justify-content: space-around;
+ }
+.buy h2{
+	margin: 0;
+}
+.mat-stroked-button {
+	color: #0e7200 !important;
+	border-color: #0e7200;
+	font-size: 1.5em;
+}
+.footer-c{
+    padding: 2rem;
+	width: 100%; 
+    text-align: center;
+    font-weight: 300;
+    background-color: #272727;
+    font-size: 16px;
+    color: #f7f7f7;
+}
+
 @media screen and (max-width: 1965px) {
     .add{
         font-size: 0.75rem;
@@ -85,7 +130,7 @@ button{
 	}
 	.main-text{
         font-size: 1.4rem!important;
-		margin-top: 80px;
+		margin: 80px;
     }
     .main-text p{
         font-size: 0.9rem!important;
@@ -95,6 +140,11 @@ button{
 	.material-icons{
 		font-size: 22px;
 	}
+    .footer-c{
+        padding-top: 1rem!important;
+        padding-bottom: 1rem!important;
+        font-size: 0.7rem;
+    }
 }
 
 
@@ -116,7 +166,7 @@ button{
 @media screen and (max-width: 1024px) {
     .main-text{
         font-size: 1.3rem!important;
-		margin-top: 60px;
+		margin: 60px;
 
     }
     .all-products, .main-text p{
@@ -127,7 +177,21 @@ button{
 	.navbar{
 		padding: 0;
 	}
+	.image img{
+		width: 160px;
+	}
+	.buy{
+		min-width: 145px;
 
+	}
+	.mat-stroked-button{
+		font-size: 1em;
+	}
+	.footer-c{
+		padding-top: 1rem!important;
+		padding-bottom: 1rem!important;
+		font-size: 0.7rem;
+	}
 
 }
 
@@ -138,6 +202,15 @@ button{
     }
 	.navbar img{
 		height: 2rem;
+	}
+
+	.mat-stroked-button{
+		font-size: 1.5em;
+	}
+	.footer-c{
+		padding-top: .6rem!important;
+		padding-bottom: .6rem!important;
+		font-size: 0.6rem;
 	}
 }
 
@@ -155,14 +228,46 @@ button{
 		width: 0.5rem!important;
 	}
 	.main-text {
-		margin-top: 60px;
-
+		margin: 60px auto 20px;
         font-size: 1.2rem!important;
     }
     .all-products, .main-text p{
         font-size: 0.7rem!important;
 
     }
+	.product{
+		width: 70%;
+		flex-direction: column;
+		align-items: center;
+	}
+	.buy{
+		line-height: 20px;
+		min-width: 70%;
+	}
+	.buy .image{
 
+		margin: 5px;
+		max-width: 100%;
 
+	}
+	.image{
+		display: flex;
+		flex-direction: column;
+	}
+	h3{
+		text-align: center;
+		/* margin-top: 5px; */
+	}
+	.buy, .image, img{
+		max-width: 100%;
+	}
+	.footer-c{
+        padding: 0.5rem!important;
+    }
+}
+
+@media screen and (max-width: 350px) {
+	.product{
+		width: 80%;
+	}
 }

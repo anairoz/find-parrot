@@ -20,7 +20,7 @@ import { FooterComponent } from './home/footer/footer.component';
 import { SignInComponent } from './home/navigation/sign-in/sign-in.component';
 import { LogInComponent } from './home/navigation/log-in/log-in.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-
+import { MatDividerModule } from '@angular/material/divider';
 @NgModule({
   declarations: [
     AppComponent,
@@ -50,7 +50,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     MatDatepickerModule,
     FormsModule,
     ReactiveFormsModule,
-    MatSnackBarModule
+    MatSnackBarModule,
+    MatDividerModule
   ],
   providers: [],
   bootstrap: [AppComponent],

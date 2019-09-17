@@ -9,6 +9,8 @@ import { MatFormFieldModule } from '@angular/material/form-field';
 })
 export class AddProductComponent implements OnInit {
 
+    categories = ['Time tracker', 'Social', 'Develop'];
+
   constructor() { }
 
   ngOnInit() {
